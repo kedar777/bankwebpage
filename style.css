@@ -1,0 +1,224 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.head1:hover {
+    color: rgb(89, 0, 255);
+}
+
+.head1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    height: 2px;
+    background-color: blue;
+    transform-origin: bottom right;
+    transition: transfrom 0.25s ease-out;
+}
+
+.head1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.scroll1 {
+    top: 0%;
+    position: fixed;
+    overflow: hidden;
+    background-color: white;
+}
+
+/*Buttons*/
+.btn1 {
+    margin-left: 14%;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: rgb(80, 80, 254);
+    color: white;
+}
+.btn1:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn2 {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: rgb(80, 80, 254);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.btn3:hover {
+    background-color: white;
+    color: black;
+}
+.btn3 {
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(63, 63, 255);
+    color: white;
+    border-radius: 5%;
+}
+
+.btn4 {
+    /*that is used for attach file btn */
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 10%;
+
+}
+
+.btn5 {
+    /*that is used for Submit  btn */
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(43, 0, 255);
+    border-radius: 10%;
+    color: white;
+    font-size: 15px;
+
+}
+
+.btn6{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.line2 {
+    width: 150px;
+    height: 1px;
+    background-color: gray;
+}
+
+.head2 {
+    margin-left: 14%;
+}
+/*p*/
+.p1 {
+    font-size: 20px;
+}
+
+.p1:hover {
+    color: blue;
+}
+
+
+.img1 {
+    background-image: url("https://www.kotak.com/content/dam/Kotak/herosliderbanner/Kotak-My-Family-Savings-Account.png");
+    width: 1440px;
+    height: 400px;
+    margin-left: 2.5%;
+}
+
+.frame1 {
+    /*that is used for frame */
+    background-color: rgb(245, 245, 245);
+    height: 530px;
+    width: 1511px;
+}
+/*box*/
+.box1 {
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+    border: 0.5px solid black;
+}
+.box1:hover {
+    /* it is used for blue effect box */
+    background-color: blue;
+    color: white;
+}
+.box2 {
+    width: 250px;
+    height: 320px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    background-color: rgb(237, 237, 255);
+    transition: transform .2s;
+
+}
+.box2:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.12);
+}
+.div5 {
+    margin-left: 20%;
+    /* it is uesd for align boxes at center */
+}
+
+.input-fild {
+    /*that is used for inputs like name ,email,password */
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    width: 180px;
+    font-size: 20px;
+    background: transparent;
+}
+
+.input-fild:hover {
+    /* that is for color change effect for from */
+    border-color: blue;
+
+}
+
+.input-fild:hover::placeholder {
+    /* that is for color change effect  for from placeholder */
+    color: blue;
+}
+.frame2 {
+
+    background-color: rgb(245, 245, 245);
+    height: 400px;
+    width: 1300px;
+    margin-left: 10%;
+}
+
+.frameA {
+    background-color: rgb(245, 245, 245);
+    height: 400px;
+    width: 1300px;
+}
+
+.back1 {
+    width: 500px;
+    height: 50px;
+    background-color: white;
+}
+
+.b1 {
+    width: 200px;
+    height: 100px;
+    border-radius: 20%;
+    box-shadow: 8px 8px 8px 8px rgb(196, 195, 195);
+    background-color: blue;
+}
+
+.background1 {
+    background-image: url('https://www.fg-a.com/wallpapers/2020-blue-abstract-background-design.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
